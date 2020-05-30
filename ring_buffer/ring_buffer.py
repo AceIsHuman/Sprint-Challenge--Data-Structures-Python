@@ -18,4 +18,5 @@ class RingBuffer:
             self.size += 1
 
     def get(self):
-        pass
+        return self.storage
+        
